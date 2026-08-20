@@ -30,6 +30,8 @@ the HTCondor version is what we will provide via our services.
 -   Our home directory has enough available space and inodes (TBD but not a lot)
 -   PATh staff know the right partition (and other batch system config) to use
 -   PATh staff know the correct path to the batch-system binaries
+-   The following Linux tools are installed and the user account can execute them:
+    awk, bash, cat, cp, cut, date, grep, ln, mkdir, mv, printf, python, rm, rsync, sed, true, uname
 -   The batch system is configured to allow the user account to submit jobs to the right partition(s) and for the default job “shape” (e.g., 1 core, 2 GB memory, and 24-hour maximum run time)
     
 ### It is possible to SSH from the CE to the login node:
